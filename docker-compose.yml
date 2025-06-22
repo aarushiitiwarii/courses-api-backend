@@ -2,13 +2,13 @@ version: "3.8"
 
 services:
   backend:
-    image: aarushiitiwarii/courses-api-backend
+    image: aarushiitiwarii/courses-api-backend:latest
     container_name: courses-api-backend
     ports:
       - "8081:8081"
 
   frontend:
-    image: aarushiitiwarii/courses-api-frontend
+    image: aarushiitiwarii/courses-api-frontend:latest
     container_name: courses-api-frontend
     ports:
       - "5173:5173"
